@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rithika AK | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background: #e3f2fd; /* Light blue background */
+      color: #0d1b2a;
+    }
+    header {
+      background: linear-gradient(to right, #0d47a1, #1565c0, #1e88e5); /* Blue gradient */
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      font-size: 1.8rem;
+      letter-spacing: 2px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      position: relative;
+    }
+    nav ul li {
+      position: relative;
+      cursor: pointer;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    nav ul li:hover {
+      color: #ffd700;
+    }
+    nav ul li ul {
+      display: none;
+      position: absolute;
+      background: white;
+      color: #0d47a1;
+      padding: 10px;
+      list-style: none;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      z-index: 100;
+    }
+    nav ul li:hover ul {
+      display: block;
+    }
+    nav ul li ul li {
+      padding: 8px 12px;
+      white-space: nowrap;
+    }
+    nav ul li ul li:hover {
+      background: #e3f2fd;
+      color: #0d47a1;
+    }
+    section {
+      padding: 30px;
+    }
+    .section-box {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #0d47a1;
+      margin-bottom: 10px;
+      font-size: 1.5rem;
+    }
+    .btn {
+      background: #1565c0;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 10px;
+      display: inline-block;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #0d47a1;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #1565c0;
+      color: white;
+      font-size: 0.9rem;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>RITHIKA AK</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li>
+          <a href="#projects">Projects ▼</a>
+          <ul>
+            <li><a href="https://1drv.ms/i/c/0d1b6e76611c9caa/EfVVrAuMbetOqqdPYJnN6xoB7hYfesj61gT3JP_40pECBQ?e=qn0dFr" target="_blank">Water Level Indicator</a></li>
+            <li><a href="https://1drv.ms/i/c/0d1b6e76611c9caa/EY_ScN-JGNtPtHf4lHdyVMIB0mQKrVcrh3YIWG42E7D5cg?e=NYQTd3" target="_blank">Current Leakage Detector</a></li>
+          </ul>
+        </li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section-box">
+    <h2>About Me</h2>
+    <p>Proactive and goal-oriented professional with excellent time management and problem-solving skills. Tech-savvy innovator with hands-on experience in emerging technologies and a passion for continuous improvement.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section-box">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python Programming</li>
+      <li>SolidWorks (3D Modeling & Design)</li>
+      <li>Arduino UNO (Sensor Interfacing & Automation)</li>
+      <li>Web Development (HTML, CSS, Basic JS)</li>
+      <li>Microsoft Excel (Data Analysis & Reports)</li>
+      <li>Teamwork and Collaboration</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section-box">
+    <h2>Projects</h2>
+    <p><strong>Water Level Indicator with Purity Sensor</strong></p>
+    <a href="https://1drv.ms/i/c/0d1b6e76611c9caa/EfVVrAuMbetOqqdPYJnN6xoB7hYfesj61gT3JP_40pECBQ?e=qn0dFr" class="btn" target="_blank">View Image</a>
+    <p><strong>Current Leakage Detector</strong></p>
+    <a href="https://1drv.ms/i/c/0d1b6e76611c9caa/EY_ScN-JGNtPtHf4lHdyVMIB0mQKrVcrh3YIWG42E7D5cg?e=NYQTd3" class="btn" target="_blank">View Image</a>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume" class="section-box">
+    <h2>Resume</h2>
+    <a href="https://1drv.ms/b/c/0d1b6e76611c9caa/EU68VrxLYupOo09-FgLc-DMBFUTx89f978zXrZj27cxyuw?e=4AcA5g" 
+   target="_blank" 
+   class="btn" 
+   style="background-color:#0047ab; color:white; padding:10px 20px; border-radius:8px; text-decoration:none;">
+   Download Resume
+</a>
+
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section-box">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:rithika7369@gmail.com">rithika7369@gmail.com</a></p>
+    <p>Phone: <a href="tel:+919945881372">+91 9945881372</a></p>
+    <p>Location: India</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/rithika-ak-76a253366" target="_blank">Profile Link</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Rithika AK | Portfolio
+  </footer>
+</body>
+</html>
+ final code
+ 
